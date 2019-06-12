@@ -1,8 +1,8 @@
 service:
   port: 8080
   # If the following are uncommented, then the server will operate over TLS
-  tlsCertificate: /usr/src/server.crt
-  tlsPrivateKey: /usr/src/server.key
+  tlsCertificate: /usr/secret/server.crt
+  tlsPrivateKey: /usr/secret/server.key
 
 metrics:
   port: 2112
