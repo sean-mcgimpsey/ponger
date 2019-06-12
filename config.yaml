@@ -1,6 +1,7 @@
 service:
   port: 8080
   # If the following are uncommented, then the server will operate over TLS
+  protocol: https
   tlsCertificate: /usr/secret-crt/server.crt
   tlsPrivateKey: /usr/secret-key/server.key
 
